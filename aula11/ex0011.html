@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual seu país?</title>
+</head>
+
+<body>
+    <h1>Qual o seu país? &#127757;</h1>
+    <input type="text" name="paix" id="paix" placeholder="digite seu país">
+
+    <input type="button" value="ver" onclick="ver()">
+
+    <script>
+        function ver() {
+            var pais = 'Brasil'
+            var paix = window.document.querySelector('input#paix')
+            var show = (paix.value)
+            if (pais == show) {
+                alert('Você é Brasileiro')
+            } else {
+                alert('Você é Estrangeiro!')
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
