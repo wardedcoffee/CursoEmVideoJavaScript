@@ -4,31 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercício</title>
+    <title>Vamos Contar</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
-        <h1>Vamos contar</h1>
+        <h1>Vamos Contar</h1>
     </header>
     <section>
         <div>
             <label for="">Início:</label> 
-            <input type="number" name="init" id="init">
+           <input type="number" name="inicio" id="inicio" placeholder="digite o número inicial">
+            
+          
             <label for="">Fim:</label>
-            <input type="number" name="end">
+            <input type="number" name="fim" id="fim" placeholder="digite o número final">
+           
+          
             <label for="">Passo:</label>
-            <input type="number" name="step">
+           <input type="text" name="passo" id="passo" placeholder="escolha o intervalo">
 
-            <button type="button" name="sum">Contar</button>
-
-                Testando...
+          
+             <input type="button" value="ver" onclick="ver()">
+             
+          
         </div>
 
 
         <div> 
             <p>Contando:</p>
-            <p class="show" id="show"> 7 números</p> 
+            <p class="showText" id="showText"> 7 números</p> 
         </div>
     </section>
     <footer>

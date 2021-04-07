@@ -4,7 +4,7 @@ body {
 }
 
 header {
-   color: red;
+   color: white;
    text-align: center;
 }
 
@@ -25,6 +25,6 @@ footer {
 
 input {
     margin-top: 5px;
-    border: 1px solid red;
+    border: 1px solid black;
     display: block;
 }
