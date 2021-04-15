@@ -24,9 +24,20 @@ footer {
 }
 
 #seltab {
+    
     font-size: 16px;
     margin-top: 5px;
     padding-top: 5px;
     width: 150px;
     height: auto;
 }
+
+#textoTela {
+    margin-left: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 10px;
+    display: inline;
+    color: red;
+}
+
